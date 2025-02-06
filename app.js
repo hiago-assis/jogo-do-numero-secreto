@@ -1,5 +1,5 @@
 let listaDeNumersoSorteados = [];
-let limite = 50;
+let limite = 30;
 let numSec = gerarNum();
 let tentativas = 1;
 
