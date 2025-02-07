@@ -1,5 +1,5 @@
 let listaDeNumersoSorteados = [];
-let limite = 40;
+let limite = 30;
 let numSec = gerarNum();
 let tentativas = 1;
 
@@ -20,7 +20,7 @@ function textoNaTela(tag, texto){
     campo.innerHTML = texto; 
 
     if ('speechSynthesis' in window) {
-        let utterance = new SpeechSynthesisUttegrance(texto);
+        let utterance = new SpeechSynthesisUtterance(texto);
         utterance.lang = 'pt-BR'; 
         utterance.rate = 1.5; 
         window.speechSynthesis.speak(utterance); 
